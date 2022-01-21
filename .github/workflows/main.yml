@@ -44,6 +44,6 @@ jobs:
     - name: Commit changes
       run: |
         git add .
-        git commit -m “publishing WASM”
+        git commit -m "publishing WASM"
         git push --set-upstream origin pages        
       # steps to deploy the application
